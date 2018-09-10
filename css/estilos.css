@@ -1,0 +1,154 @@
+/* Clase para darle estilo al body */
+.cinema-body {
+    background: url(../img/poporopos.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* Clase para darle estilos a barra de navegacion */
+.navbar-inverse {
+    min-height: 10%;
+    background: rgba(8, 45, 94, 0.95);
+    border: none;
+}
+
+.logo-img {
+    width: 100px;
+}
+
+/* Clase para darle estilos al contenedor principal */
+ .container-fluid {
+     margin-top: 73px;
+ }
+
+ /* Clase para darle estilos al jumbotron */
+.jumbotron {
+    background: url(../img/cinema.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 500px;
+    border-radius: 0px !important;
+    margin-bottom: 0px;
+}
+
+.jumbotron-img {
+    width: 220px;
+    margin-top: 20px;
+}
+
+.jumbotron-text {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.redes-sociales {
+    margin-top: 30px;
+}
+
+.img-social {
+    width: 40px;
+    height: 40px;
+}
+
+.img-movies {
+    height: 260px;
+    padding: 6px;
+    margin-top: 22px;
+}
+
+.movie-title {
+    color: #FFFFFF; 
+ }
+
+ .welcome-title {
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+/* Clase para darle estilos a la etiqueta contenedora de los encabezados/titulos */
+.titulo-cartelera {
+    min-height: 35px;
+    background: rgba(8, 45, 94, 0.95);
+    font-size: 15px;
+}
+
+.titulo-text {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+/* Clase para darle estilos a las filas y/o a columnas que contienen filas */
+.movies-row {
+    background: rgba(0, 0, 0, 0.8);
+    min-height: 350px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Clase para darle estilos a las columnas */
+.movies-column {
+    margin-top: 5px;
+    background: #00678E;
+    min-height: 330px;
+    border: 1px dashed #FFFFFF;
+}
+
+/* Clase para darle estilos a la columna de la izquierda y agregar borde a la derecha */
+.left-column {
+    border-right: 1px dashed #FFFFFF;
+}
+
+.row-centered {
+    text-align: center;
+}
+
+.services-text {
+    margin-top: 13px;
+    color: #FFFFFF
+    
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+}
+
+@media (max-width: 770px) {
+    /* Clase para ocultar componentes HTML */
+    h2 {
+        font-size: 22px;
+    }
+
+    .titulo-text {
+        font-size: 15px;
+    }
+
+    .right-column {
+        display: none;
+    }
+
+    .movies-row {
+        padding-left: 0px;
+        padding-right: 0px;
+        min-height: 250px;
+    }
+
+    .container-fluid {
+        margin-top: 60px;
+    }
+
+    .movies-column {
+        min-height: 230px;
+    }
+
+    .jumbotron {
+        min-height: 400px;
+    }
+}
